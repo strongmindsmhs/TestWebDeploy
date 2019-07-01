@@ -1,0 +1,15 @@
+msbuild ..\TestWebDeploy.csproj ^
+-p:DeployOnBuild=True ^
+-p:WebPublishMethod=MSDeploy ^
+-p:Configuration=Debug ^
+-p:LaunchSiteAfterPublish=True ^
+-p:ExcludeApp_Data=False ^
+-p:MSDeployServiceURL=http://52.18.162.6 ^
+-p:DeployIisAppPath=TestSite ^
+-p:SkipExtraFilesOnServer=False ^
+-p:MSDeployPublishMethod=RemoteAgent ^
+-p:EnableMSDeployBackup=True ^
+-p:AllowUntrustedCertificate=True ^
+-p:IisUrl=http://52.18.162.6 ^
+-p:UserName=Administrator ^
+-p:Password="&rl-b@TyEx!=AqoPO-3&2aA)wSeR*2qf"
